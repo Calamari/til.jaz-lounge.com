@@ -9,6 +9,13 @@
   align-items: center;
   border-bottom: 1px solid $border-color-light;
   line-height: 3rem;
+  text-align: left;
+}
+
+.page-list__item__meta {
+  text-align: right;
+  min-width: 170px;
+  width: 170px;
 }
 
 .page-list__item__date {
