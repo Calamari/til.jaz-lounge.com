@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #e9eeec;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  width: 25%;
+  position: fixed;
+  left: 0;
+  height: 100%;
+}
+
+.main {
+  width: 75%;
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  body {
+    display: block;
+  }
+
+  .sidebar,
+  .main {
+    width: 100%;
+  }
+  .sidebar {
+    position: relative;
+    left: inherit;
+    height: auto;
+  }
+}

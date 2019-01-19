@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="container error-page">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>Sorry, but this page does not exist.</p>
+
+  <p>But maybe this topics are interesting for you?</p>
+
+  <ul class="page-list">
+    {% for post in site.posts | limit: 8 %}
+    <li class="page-list__item">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="page-list__item__meta">
+        {% assign categories = post.categories | sort %}
+        {% for category in categories %}
+          <a href="/category/{{category}}">#{{category}}</a>
+        {% endfor %}
+
+        <span class="page-list__item__date">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

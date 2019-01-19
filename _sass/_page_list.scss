@@ -1,0 +1,17 @@
+.page-list {
+
+}
+
+.page-list__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $border-color-light;
+  line-height: 3rem;
+}
+
+.page-list__item__date {
+  color: $text-color-light;
+  margin-left: 1rem;
+}

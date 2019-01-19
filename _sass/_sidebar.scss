@@ -1,0 +1,27 @@
+
+.sidebar {
+  background: $bg-color-sidebar;
+  color: $text-color-sidebar;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  padding: 1rem;
+
+  & a {
+    color: $text-color-sidebar;
+    font-weight: bold;
+    transition: color 200ms, background-color 200ms;
+  }
+
+  & a:hover {
+    color: darken($text-color-sidebar, 20);
+  }
+}
+
+.sidebar-about a {
+  font-weight: normal;
+}
+
+.sidebar-nav {
+  list-style: none;
+}

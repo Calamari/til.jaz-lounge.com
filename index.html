@@ -1,0 +1,35 @@
+---
+layout: default
+title: The latest learnings
+---
+<div class="posts">
+  {% for post in site.posts %}
+  {% if post.lang %}
+  <div class="post" lang="{{post.lang}}">
+  {% else %}
+  <div class="post">
+  {% endif %}
+
+    {% include post.html  post=post %}
+  </div>
+  {% endfor %}
+</div>
+
+
+<!-- Pagination -->
+<div class="pagination">
+  {% if site.next_page %}
+    <a class="pagination-item older" href="/page{{site.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if site.previous_page %}
+    {% if site.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{site.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

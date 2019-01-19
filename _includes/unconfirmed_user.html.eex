@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="<%= Gettext.get_locale(MeetingminutesWeb.Gettext) %>">
+  <head>
+    <%= render MeetingminutesWeb.LayoutView, "_html_head.html", assigns %>
+  </head>
+  <body>
+    <%= render MeetingminutesWeb.LayoutView, "_header.html", assigns %>
+
+    <main role="main" class="container">
+      <h1><%= dgettext("error_pages", "Your account is not yet confirmed.") %></h1>
+
+      <p><%= raw dgettext("error_pages", "To fully take advantage of your MeetingGeist account, you first have to verify that the email %{email} belongs to you. We already send you an email with a confirmation link. Please follow the instructions in it.", %{email: assigns[:email]}) %></p>
+
+      <%= link dgettext("error_pages", "Resend confirmation mail to %{email}", %{email: assigns[:email]}), to: assigns[:resend_confirmation_url], method: :post, class: "button" %>
+    </main>
+    <%= render MeetingminutesWeb.LayoutView, "_scripts.html", assigns %>
+  </body>
+</html>

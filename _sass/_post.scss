@@ -1,0 +1,46 @@
+
+.post {
+  background: $bg-color-post;
+  color: $text-color-post;
+  display: block;
+  margin-left: -1 * $container-padding;
+  margin-bottom: 4rem;
+  padding: $container-padding;
+  max-width: 65rem;
+}
+
+.post__title {
+  padding-left: 1rem;
+}
+
+.post__content {
+  padding: 0 1rem;
+}
+
+.post-footer-container {
+  border-top: 1px solid $border-color-light;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1rem 0;
+}
+
+.post-footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-footer--right {
+  text-align: right;
+}
+
+.post-date {
+  color: $text-color-light;
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  .post {
+    margin-right: -1 * $container-padding;
+  }
+}

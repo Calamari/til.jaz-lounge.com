@@ -1,0 +1,15 @@
+
+.main {
+  background: $bg-color-main;
+  box-sizing: border-box;
+  color: $text-color-main;
+  padding: $container-padding;
+
+  & a {
+    color: $text-color-main;
+  }
+
+  & a:hover {
+    color: darken($text-color-main, 20);
+  }
+}

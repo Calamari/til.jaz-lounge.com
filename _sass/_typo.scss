@@ -1,0 +1,79 @@
+.outside-title {
+  color: $text-color-outside;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.post__title {
+  font-size: 2.3rem;
+  letter-spacing: -1px;
+  line-height: 1.305;
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  .post__title {
+    font-size: 2.3rem;
+    line-height: 1.305;
+  }
+}
+
+.post-content {
+  margin-bottom: 30px
+}
+
+.post-content h2 {
+  font-size: 32px
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  .post-content h2 {
+    font-size:28px
+  }
+}
+
+.post-content h3 {
+  font-size: 26px
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+  .post-content h3 {
+    font-size:22px
+  }
+}
+
+.post-content h4 {
+  font-size: 20px
+}
+
+@media screen and (max-width: 800px) {
+  .post-content h4 {
+    font-size:18px
+  }
+}
+
+pre {
+  padding: 0.75rem;
+  line-height: 1.5rem;
+}
+
+a {
+  transition: color 200ms, background-color 200ms;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+$bg-color-link: #eef;
+.main .post__content a {
+  background: $bg-color-link;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  letter-spacing: -1px;
+  padding: 1px 5px;
+
+  &:hover {
+    background: #397275;
+    color: #fff;
+  }
+}
