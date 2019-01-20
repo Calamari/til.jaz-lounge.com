@@ -58,16 +58,16 @@ feed:
 sass:
   style: compressed
 
-jekyll-archives:
-  enabled:
-    - categories
-  layout: category_index
-  permalinks:
-    # year: '/:year/'
-    # month: '/:year/:month/'
-    # day: '/:year/:month/:day/'
-    # tag: '/tag/:name/'
-    category: '/:name/'
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: category_index
+#   permalinks:
+#     # year: '/:year/'
+#     # month: '/:year/:month/'
+#     # day: '/:year/:month/:day/'
+#     # tag: '/tag/:name/'
+#     category: '/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
