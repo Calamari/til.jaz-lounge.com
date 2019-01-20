@@ -3,7 +3,7 @@ layout: post
 title:  "…that there are nice names for Phoenix conn status codes"
 date:   2019-01-19 22:00:00 +0100
 share_text: Today I learned that there are nice names for Phoenix conn status codes
-categories: elixir
+category: elixir
 ---
 In ruby there is this neat way to define response statuses, something like:
 

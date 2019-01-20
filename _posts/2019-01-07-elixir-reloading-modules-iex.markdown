@@ -3,7 +3,7 @@ layout: post
 title:  "…how to reload modules in iex"
 date:   2019-01-07 14:00:00 +0100
 share_text: Today I learned how to reload modules in iex
-categories: elixir
+category: elixir
 ---
 You may know about how to load files into your iex. Right?
 

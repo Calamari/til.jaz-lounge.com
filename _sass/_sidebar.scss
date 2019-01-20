@@ -11,6 +11,10 @@
     color: $text-color-sidebar;
     font-weight: bold;
     transition: color 200ms, background-color 200ms;
+
+    &.link-light {
+      font-weight: normal;
+    }
   }
 
   & a:hover {

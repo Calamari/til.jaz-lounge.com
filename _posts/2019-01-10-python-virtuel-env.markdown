@@ -3,7 +3,7 @@ layout: post
 title:  "…how to use virtual environments in python 3"
 date:   2019-01-10 12:00:00 +0100
 share_text: "Today I learned how to use virtual envs in #python"
-categories: python
+category: python
 ---
 Virtual environments are a great way to not clutter your global namespace with all the python packages you might only use in one project. Also if you use the same packages but in different versions in multiple projects.
 

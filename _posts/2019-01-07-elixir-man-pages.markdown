@@ -3,7 +3,7 @@ layout: post
 title:  "…that there are awesome man pages within elixir iex"
 date:   2019-01-07 12:00:00 +0100
 share_text: Today I learned that there are man pages within iex
-categories: elixir
+category: elixir
 ---
 One awesome discovery for me was, that you can browse the docs of commands directly from within the iex console.
 
