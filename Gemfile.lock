@@ -31,6 +31,8 @@ GEM
       jekyll (>= 2.4)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-paginate-v2 (2.1.0)
+      jekyll (~> 3.0)
     jekyll-sass (1.1.0)
       jekyll (>= 0.10.0)
       sass (>= 3.0.0)
@@ -67,6 +69,7 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-feed
+  jekyll-paginate-v2
   jekyll-sass
 
 BUNDLED WITH

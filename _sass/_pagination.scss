@@ -1,0 +1,12 @@
+.pagination-list {
+  max-width: $text-flow-max;
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 4rem;
+  padding: 0;
+}
+
+.pagination-list__item {
+  width: 50%;
+  text-align: center;
+}

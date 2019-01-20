@@ -3,8 +3,10 @@ layout: default
 ---
 
 <h1 class="outside-title">All learnings about "{{ page.title }}"</h1>
-{% for post in page.posts %}
-  <div class="post">
-    {% include post.html  post=post %}
-  </div>
-{% endfor %}
+<div class="posts">
+  {% for post in page.posts %}
+    <div class="post">
+      {% include post.html  post=post %}
+    </div>
+  {% endfor %}
+</div>
