@@ -40,7 +40,7 @@ paginate_path: '/page/:num/'
 #   sort_reverse: true
 
 github:
-  repo: https://github.com/Calamari/til-static
+  repo: https://github.com/Calamari/til.jaz-lounge.com
 
 permalink: /:categories/:slug
 
