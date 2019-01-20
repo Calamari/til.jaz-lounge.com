@@ -31,11 +31,13 @@ meta:
     optimized my development processes already and might you to in the future.
   keywords: "elixir, ruby, python, development, programming, tips, tricks"
 
-pagination:
-  enabled: true
-  per_page: 20
-  permalink: '/page/:num/'
-  sort_reverse: true
+paginate: 20
+paginate_path: '/page/:num/'
+# pagination:
+#   enabled: true
+#   per_page: 20
+#   permalink: '/page/:num/'
+#   sort_reverse: true
 
 github:
   repo: https://github.com/Calamari/til-static
@@ -48,7 +50,7 @@ markdown: kramdown
 plugins:
   - jekyll-archives
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 feed:
   path: atom.xml
