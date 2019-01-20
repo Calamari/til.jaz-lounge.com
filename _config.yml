@@ -25,6 +25,12 @@ github_username:  Calamari
 contactme: http://www.tavonius.de
 default_share_text: Today I learned something cool on
 
+meta:
+  description: >-
+    Here you see some smaller and bigger tips and tricks that did save me time and
+    optimized my development processes already and might you to in the future.
+  keywords: "elixir, ruby, python, development, programming, tips, tricks"
+
 github:
   repo: https://github.com/Calamari/til-static
 
@@ -39,7 +45,7 @@ plugins:
 
 feed:
   path: atom.xml
-  
+
 sass:
   style: compressed
 
