@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary"></meta>
   <meta name="twitter:site" content="@{{ site.twitter_username }}"></meta>
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.url | prepend: site.url | beautify_url }}" />
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:description" content="{{ page.title }}" />
 
